@@ -1,0 +1,48 @@
+/*-------------------- codigo css para ejemplo 2 boxes-----------*/
+#container{
+    display: flex; /*makes container a flexBox*/
+    flex-flow: row wrap; /*layaut the rows and wrap them*/
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1050px;
+}
+
+.card{
+    flex:1; /*makes the content controllable by flexBox*/
+    display: flex;
+    flex-flow: column;
+    max-width: 240px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+/*--------------------codigo css para que funcione ejemplo 9 boxes---*/
+.container{
+    display: flex; /*makes container a flexBox*/
+    flex-flow: row wrap; /*layaut the rows and wrap them*/
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1050px;
+}
+
+.box{
+    flex:1; /*makes the content controllable by flexBox*/
+    display: flex;
+    flex-flow: column;
+    max-width: 240px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+/*--------------------------------------buttons------*/
+.makeBlue{
+    background-color: lightblue;
+}
+.makeGreen{
+    background-color: green;
+}
+
