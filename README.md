@@ -29,3 +29,15 @@ Within the else statement, we turn all elements with a boxClass lightblue and th
 of all elements with the same className as the clicked element to green.
 Now if we run the code, you can just click them on and off, depending on whether they're 1, 2, or 3.
 Note: works better if you dont mix  the notation of the colors.
+
+CHALLENGE IF
+Return to your cards page: When a stream is clicked in the nav, that stream’s 
+cards will transition and change background-color. When another stream is clicked,
+only that stream will transition and change background-color.
+
+This one is a bit trickier, but the idea is the same. Here give each list item
+in the navbar an individual id of stream1, stream2, and stream3. Each of our 
+card elements will also have a class of stream1-card, stream2-card, or stream3-card. 
+When we click on one of the list items in the navbar, we need to get the id of that 
+list item using the this keyword. Once that has been achieved, use that value to 
+target any elements that use that as a class name.
